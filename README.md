@@ -1,3 +1,11 @@
+# Verb Conjugation Flash Card Quiz Application
+
+## Applicaiton Description
+This project creates a flash card quiz app for users tyring to learn verb conjugation in a foreign language. Currently, the application is designed for English speakers who are trying to learn Spanish. Each question shows the user a sentence with a blank space. The infinitive verb (unconjugated) and the person (the doer of the verb action) are in parentheses after the blank. The user must infer the tense (time in which the action takes place) and conjugate the verb appropriately so that it makes sense in the sentence. After typing in an answer and clicking submit, text is shown to inform the user whether their verb conjugation is correct or incorrect.
+
+## Application User Interface
+![image](./public/App_Screenshot.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

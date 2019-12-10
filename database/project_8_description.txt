@@ -1,0 +1,27 @@
+Evan Thomas
+NSC IT125
+Project 8: Design and Implement a DB
+
+I would like to work on a database for an app that teaches students how to conjugate Spanish verbs in sentences. This app would show the user a sentence in Spanish, with a blank space where the verb should go. The infinitive (unconjugated) verb would given to the user, who would then have to conjugate it based on the context of the sentence so that it is gramatical sense when put into the sentence space. Here is an example of how the app would work:
+
+	step 1, show the user a sentence with a blank space for the verb
+		sentence: Esta noche ella _____ con ellos.
+
+	step 2, show the user the infinitive verb that needs to go in the blank 
+		verb infinitive: hablar
+
+	step 3, the user enters what he/she thinks the correct conjugation is
+		habla
+
+	step 4, the app determines whether the conjugation is correct
+		correct answer!	
+
+Many Spanish verbs of a certain type have similar conjugations. For example, many verbs that end with letters "ar" are conjugated in the fist person present tense by replacing the "ar" with "o".
+
+hablar -> Yo hablo
+estudiar -> Yo estidio
+cantar -> Yo canto
+
+If a verb follows one of these conjugation ending patters, I would like to give the user an option to view a table showing the conjugation endings. This table would be an optional hint for the user.
+
+I think that a database would be useful for this app to store the sentences, verbs, ect (see EER for details). If this app was written using a langage like JavaScript, I imagine that it could make calls to a database via some API to retrieve the relevant info for each question.
